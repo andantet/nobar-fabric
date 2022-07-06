@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+
+  "id": "nobar",
+  "version": "${version}",
+  "license": [
+    "MIT (Code)",
+    "All Rights Reserved (Assets)"
+  ],
+
+  "name": "No Bar",
+  "icon": "assets/nobar/icon.png",
+  "description": "Removes the chat indicator introduced in 1.19.1 for message types",
+
+  "authors": [
+    "Daniel Orr (Andante)"
+  ],
+  "contact": {
+    "sources": "https://github.com/andantet/nobar-fabric",
+    "issues": "https://github.com/andantet/nobar-fabric/issues"
+  },
+
+  "environment": "client",
+  "entrypoints": {},
+  "mixins": [ "nobar.mixins.json" ],
+
+  "depends": {
+    "java": ">=17",
+    "minecraft": ">=1.19",
+    "fabricloader": ">=0.14"
+  }
+}
